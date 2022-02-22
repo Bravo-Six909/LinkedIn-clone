@@ -3,7 +3,7 @@ import React from 'react';
 import style from './error.module.css';
 import { useRouter } from 'next/router';
 
-const err = ({errs}) => {
+const Err = ({errs}) => {
 
     const router = useRouter();
     return (
@@ -27,4 +27,4 @@ const err = ({errs}) => {
     )
 }
 
-export default err;
+export default Err;
